@@ -17,6 +17,25 @@ main {
     text-align: justify; 
 }
 
+h1 {
+    /* position: relative; */
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* h1::after {
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(148, 148, 148) 50%, rgba(255,255,255,1) 100%);
+    border-radius: 50%
+} */
+
+
 /*navbar*/
 
 .navbar {
@@ -66,6 +85,7 @@ main {
     height: 5rem;
     width: 100%;
     text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .navbar-icon {
@@ -74,6 +94,7 @@ main {
     min-width: 2rem;
     margin: 0 1.5rem;
     color: #646c79;
+    
 }
 
 .navbar:not(:hover) .navbar-title {
@@ -82,12 +103,14 @@ main {
 
 .textnav {
     background-color: #e2dfe4;
+    font-family: 'Roboto', sans-serif;
 }
 
 .textnav .navbar-title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar .textnav .navbar-icon {
@@ -102,6 +125,7 @@ main {
 /*sous liste */
 
 .sous-liste {
+    
     position: fixed;
     height: 100vh;
     width: 200px;
@@ -127,12 +151,24 @@ main {
     margin: 20px 0;
     text-align: center;
 }
+
 a {
     text-decoration: none;
 }
+
 .navbar-item:hover > ul {
     display: block;
 }
+
+.secnd {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
 
 /*reponsive pour navbar*/
 
