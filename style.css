@@ -1,6 +1,4 @@
 
-
-
 html, body {
     margin: 0;
     font-size: 16px;
@@ -88,6 +86,10 @@ h1 {
     font-family: 'Bebas Neue', cursive;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .navbar-icon {
     text-align: center;
     font-size: 1.5rem;
@@ -153,7 +155,8 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+    
+    color: black;
 }
 
 .navbar-item:hover > ul {
@@ -226,4 +229,8 @@ a {
         padding: 10px;
         display: none;
     }
+}
+
+.banniere {
+    padding-left: 6rem;
 }
