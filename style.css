@@ -240,7 +240,9 @@ a {
         display: block;
         margin: 0px auto;
     }
-}
+
+   
+}    
 
 @media only screen and (min-width:1024px) {
 
@@ -249,6 +251,28 @@ a {
         margin: 0px auto;
         
     }
+
+    
+
+
+.revue span {
+    display: block;
+    position: absolute;   
+    left: -100%;         
+    padding: 0 .25em;     
+    color: #eee;         
+    background: #069;     
+    transition: all .5s;  
+    text-decoration: underline;
+  }
+
+  .revue span::after {
+      content: ":";
+  }
+
+  .revue:hover span {
+    left: 12rem;            
+  }
 
 }
 
@@ -279,4 +303,29 @@ a {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, var(--color3) 50%, rgba(255,255,255,1) 100%);
     border-radius: 50%;
     margin: 10px 0;
+}
+
+/* .revue {
+    height: 15rem;
+    display: flex;
+} */
+
+.revues {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.revue {
+    position: relative;
+    width: 16rem;
+    overflow: hidden;
+    line-height: 2em;
+    display: flex;
+    
+}
+
+.revue img {
+    
+    position: relative;
+    width: 12rem;
 }
