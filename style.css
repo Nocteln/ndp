@@ -254,6 +254,29 @@ a {
 
 .medlink {
     color: blue;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    display: flex;
+    
+}
+
+.lienhyper {
+    color: rgba(3, 3, 255, 0.3);
+    height: 5px;
+    width: 5px;
+}
+.lienhypernav {
+    font-size: 10px;
+    color: rgba(12, 43, 30, 0.5);
+}
+
+.docs::before {
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, var(--color3) 50%, rgba(255,255,255,1) 100%);
+    border-radius: 50%;
+    margin: 10px 0;
 }
