@@ -154,12 +154,13 @@ a:hover {
 .secnd {
     font-size: 13px;
     display: flex;
+    list-style-type: disc;
     list-style: inside;
 }
 
 
 
-/*format téléphone*/
+/*format téléphone */
 
 @media only screen and (max-width:1024px) {
     .navbar {
