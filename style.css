@@ -154,10 +154,8 @@ a:hover {
 .secnd {
     font-size: 13px;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    list-style: inside;
 }
-
 
 
 
@@ -222,12 +220,18 @@ a:hover {
     }
 
     .meditation {
-        width: 425px;
-        height: 75px;
+        width: 95%;
+        height: auto;
         display: block;
         margin: 0px auto;
     }
    
+    main {
+        padding: 1rem 4rem;
+        margin-left: auto;
+        text-align: justify; 
+    }
+
 }  
 
 /*format pc*/
