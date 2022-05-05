@@ -134,6 +134,33 @@
         <h1>Notre-Dame-Providence : Enghien-les-Bains</h1>
 
     </main>
+
+    <!--*********Caroussel**********-->
+
+
+<div class="carousbox">
+  <div class="caroussel">
     
+    <div class="images" id='IMG'>
+
+      <img src="./img/1.png" class="active">
+    
+    </div>
+
+    <div class="cont-btn">
+      <div class="btn-nav left">←</div>
+      <div class="btn-nav right">→</div>
+    </div>
+    
+  </div>    
+</div>
+<script type="text/javascript">
+  var madiv = document.getElementById('IMG')
+  for (let i = 2; i <= 39; i++) {
+    madiv.innerHTML = madiv.innerHTML + "<img src='img/"+i+".png'/>"
+  }
+</script>
+<script src="script.js"></script>
+
 </body>
 </html> 
